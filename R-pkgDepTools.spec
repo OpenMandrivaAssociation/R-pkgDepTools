@@ -10,12 +10,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-graph R-RBGL 
-Requires:         R-graph R-RBGL 
-Requires:         R-Biobase R-Rgraphviz R-RCurl 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-graph R-RBGL
-BuildRequires:    R-graph R-RBGL 
-BuildRequires:    R-Biobase R-Rgraphviz R-RCurl 
+Requires:         R-methods R-graph R-RBGL R-Biobase R-Rgraphviz R-RCurl
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-graph R-RBGL R-Biobase R-Rgraphviz R-RCurl
 
 %description
 This package provides tools for computing and analyzing dependency
