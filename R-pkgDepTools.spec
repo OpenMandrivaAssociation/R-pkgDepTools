@@ -6,7 +6,7 @@
 
 Name:             R-%{packname}
 Version:          1.24.0
-Release:          1
+Release:          2
 Summary:          Package Dependency Tools
 Group:            Sciences/Mathematics
 License:          GPL-2
