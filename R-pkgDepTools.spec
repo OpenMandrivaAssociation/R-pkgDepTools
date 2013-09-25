@@ -5,13 +5,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          1.24.0
-Release:          2
+Version:          1.26.0
+Release:          1
 Summary:          Package Dependency Tools
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/pkgDepTools_1.24.0.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/pkgDepTools_1.26.0.tar.gz
 Requires:         R-methods R-graph R-RBGL R-Biobase R-Rgraphviz R-RCurl
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-methods R-graph R-RBGL R-Biobase R-Rgraphviz R-RCurl
